@@ -1,86 +1,107 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Los Tres Sitios Más Importantes de Los Ángeles</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Los Ángeles</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
 
-        header {
-            background-color: #35f8ff;
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
+      header {
+        background-color: #ff41b0;
+        color: white;
+        text-align: center;
+        padding: 1em;
+      }
 
-        h1 {
-            margin: 0;
-        }
+      h1 {
+        margin: 0;
+      }
 
-        section {
-            padding: 20px;
-            max-width: 900px;
-            margin: 0 auto;
-            background-color: white;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
+      .button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #f5adf1;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
 
-        .imagenes {
-            display: flex;
-            justify-content: space-around;
-            margin-bottom: 20px;
-        }
+      .button:hover {
+        background-color: #f5adf1;
+      }
 
-        .imagenes img {
-            width: 45%;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(255, 93, 220, 0.863);
-        }
+      section {
+        padding: 20px;
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
 
-        p {
-            font-size: 16px;
-            line-height: 1.6;
-        }
+      .imagenes {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+      }
 
+      .imagenes img {
+        width: 45%;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgb(247, 42, 213);
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.6;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenidos a Los Ángeles</h1>
+      <p>La ciudad de las estrellas y el sol</p>
+      <button class="button" onclick="window.location.href='2sitioweb.html';">
+        Visitar Sitio Web
+      </button>
+    </header>
 
-<header>
-    <h1>Tres sitios que visitar en Los Angeles</h1>
-    <p>Estos son los mejores sitios de Los Angeles que debes visitar</p>
-</header>
+    <section>
+      <h2>Sobre Los Ángeles</h2>
+      <p>
+        Los Ángeles, conocida como la "Ciudad de los Ángeles", es una ciudad
+        ubicada en el sur de California, famosa por ser el centro mundial del
+        entretenimiento, hogar de Hollywood y un lugar lleno de cultura, arte,
+        gastronomía y deportes. Los Ángeles es también una de las ciudades más
+        grandes y cosmopolitas de Estados Unidos.
+      </p>
 
-<section>
-    <h2>1. El Cartel de Hollywood</h2>
-    <p>El famoso cartel de Hollywood es uno de los símbolos más icónicos de Los Ángeles. Ubicado en las colinas de Hollywood, se puede ver desde varias partes de la ciudad y representa la industria del cine. Es un lugar de gran atracción turística, y se puede acceder a él mediante una caminata por el Hollywood Hills.</p>
-    <div class="imagenes">
-        <img src="https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2019/02/05/5fa517415d352.jpeg" alt="Cartel de Hollywood" />
-    </div>
+      <div class="imagenes">
+        <img
+          src="https://www.clarin.com/2018/12/26/srvVCcUrc_1256x620__1.jpg"
+          alt="Rodeo Drive"
+        />
+        <img
+          src="https://griffithobservatory.org/wp-content/uploads/2021/12/cameron-venti-6QDvwq2Fjsc-unsplash-scaled.jpg"
+          alt="Hollywood cartel"
+        />
+      </div>
 
-    <h2>2. Playa de Venice Beach</h2>
-    <p>Venice Beach es conocida por su ambiente relajado, su paseo marítimo lleno de tiendas y artistas callejeros, y su icónica playa. Es un lugar donde locales y turistas disfrutan de actividades como patinaje, ciclismo y deportes acuáticos, mientras que el famoso Muscle Beach atrae a los entusiastas del fitness.</p>
-    <div class="imagenes">
-        <img src="https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltb429eb6dd72cdc42/61810cf9a61df875c345995a/US_Venice_US_Header.jpg" alt="Venice Beach" />
-    </div>
-
-    <h2>3. Paseo de la Fama</h2>
-    <p>El paseo de la fama de Hollywood es una acera a lo largo de Hollywood Boulevard y Vine Street, en Hollywood, California, Estados Unidos, en cuyo suelo están colocadas más de 2000 estrellas .</p>
-    <div class="imagenes">
-        <img src="https://e.rpp-noticias.io/large/2012/02/22/815651.jpg" alt="Paseo de la Fama" />
-    </div>
-
-    <h2>3. Beverlly Hills</h2>
-    <p>Beverly Hills, famosa por sus grandes mansiones donde vivien estrellas de cine, de la música y millonarios, es otro de los lugares que visitar en Los Angeles.</p>
-    <div class="imagenes">
-        <img src="https://www.viajeroscallejeros.com/wp-content/uploads/rodeo-drive-los-angeles.jpg" alt="Paseo de la Fama" />
-    </div>
-</section>
-</body>
+      <h2>Lugares emblemáticos</h2>
+      <p>
+        Algunos de los lugares más emblemáticos de Los Ángeles incluyen el
+        cartel de Hollywood, el muelle de Santa Mónica, el centro cultural de la
+        ciudad, y las famosas playas como Venice Beach y Malibu. Además, la
+        ciudad es sede de importantes museos y teatros, como el Museo Getty y el
+        Teatro Dolby.
+      </p>
+    </section>
+  </body>
 </html>
